@@ -41,6 +41,7 @@
 | Mixtral  | Base&Chat                 | 8x7B            | -         | 32k | 可商用 |
 | Yi       | Base&Chat                 | 6B/9B/34B       | 3T        | 200k | 可商用 |
 | DeepSeek | Base&Chat                 | 1.3B/7B/33B/67B | -         | 4k | 可商用 |
+| XVERSE   | Base&Chat                 | 7B/13B/65B/A4.2B| 2.6T/3.2T | 8k/16k/256k | 可商用 |
 
 ## 目录
 - [目录](#目录)
@@ -223,10 +224,22 @@
   * 地址：https://github.com/wenge-research/YaYi
   ![](https://img.shields.io/github/stars/wenge-research/YaYi.svg)
   * 简介：雅意大模型在百万级人工构造的高质量领域数据上进行指令微调得到，训练数据覆盖媒体宣传、舆情分析、公共安全、金融风控、城市治理等五大领域，上百种自然语言指令任务。雅意大模型从预训练初始化权重到领域模型的迭代过程中，我们逐步增强了它的中文基础能力和领域分析能力，并增加了多轮对话和部分插件能力。同时，经过数百名用户内测过程中持续不断的人工反馈优化，进一步提升了模型性能和安全性。已开源基于 LLaMA 2 的中文优化模型版本，探索适用于中文多领域任务的最新实践。。
+* XVERSE-7B
+  * 地址：https://github.com/xverse-ai/XVERSE-7B
+  ![](https://img.shields.io/github/stars/xverse-ai/XVERSE-7B.svg)
+  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，支持 8K 的上下文长度（Context Length），使用 2.6 万亿 token 的高质量、多样化的数据对模型进行充分训练，支持中、英、俄、西等 40 多种语言。并包含GGUF、GPTQ量化版本的模型，支持在llama.cpp、vLLM在MacOS/Linux/Windows系统上推理。
 * XVERSE-13B
   * 地址：https://github.com/xverse-ai/XVERSE-13B
   ![](https://img.shields.io/github/stars/xverse-ai/XVERSE-13B.svg)
-  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，使用主流 Decoder-only 的标准Transformer网络结构，支持 8K 的上下文长度（Context Length），为同尺寸模型中最长，构建了 1.4 万亿 token 的高质量、多样化的数据对模型进行充分训练，包含中、英、俄、西等 40 多种语言，通过精细化设置不同类型数据的采样比例，使得中英两种语言表现优异，也能兼顾其他语言效果；基于BPE算法使用上百GB 语料训练了一个词表大小为100,278的分词器，能够同时支持多语言，而无需额外扩展词表。
+  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，支持 8K 的上下文长度（Context Length），使用 3.2 万亿 token 的高质量、多样化的数据对模型进行充分训练，支持中、英、俄、西等 40 多种语言。包含长序列对话模型 XVERSE-13B-256K ，该版本模型最大支持 256K 的上下文窗口长度，约 25w 字的输入内容，可以协助进行文献总结、报告分析等任务。并包含GGUF、GPTQ量化版本的模型，支持在llama.cpp、vLLM在MacOS/Linux/Windows系统上推理。
+* XVERSE-65B
+  * 地址：https://github.com/xverse-ai/XVERSE-65B
+  ![](https://img.shields.io/github/stars/xverse-ai/XVERSE-65B.svg)
+  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型，支持 16K 的上下文长度（Context Length），使用 2.6 万亿 token 的高质量、多样化的数据对模型进行充分训练，支持中、英、俄、西等 40 多种语言。包含增量预训练到 3.2 万亿 token 的 XVERSE-65B-2 模型。并包含GGUF、GPTQ量化版本的模型，支持在llama.cpp、vLLM在MacOS/Linux/Windows系统上推理。
+* XVERSE-MoE-A4.2B
+  * 地址：https://github.com/xverse-ai/XVERSE-MoE-A4.2B
+  ![](https://img.shields.io/github/stars/xverse-ai/XVERSE-MoE-A4.2B.svg)
+  * 简介：由深圳元象科技自主研发的支持多语言的大语言模型（Large Language Model），使用混合专家模型（MoE，Mixture-of-experts）架构，模型的总参数规模为 258 亿，实际激活的参数量为 42 亿，支持 8K 的上下文长度（Context Length），使用 3.2 万亿 token 的高质量、多样化的数据对模型进行充分训练，支持中、英、俄、西等 40 多种语言。
 * Skywork
   * 地址：https://github.com/SkyworkAI/Skywork
   ![](https://img.shields.io/github/stars/SkyworkAI/Skywork.svg)
