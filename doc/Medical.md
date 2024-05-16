@@ -235,3 +235,10 @@
       * 以开源的中医药知识图谱为基础
       * 调用ChatGPT得到11w+的围绕中医药的指令数据
   * 院校：华东师范大学
+* RadFM 医疗多模态生成模型 (2023-08-04)
+  * 代码: https://github.com/chaoyi-wu/RadFM
+  * 论文: [Towards Generalist Foundation Model for Radiology by Leveraging Web-scale 2D&3D Medical Data](http://arxiv.org/abs/2308.02463)
+  * 网站: https://chaoyi-wu.github.io/RadFM/
+  * 数据：MedMD（大规模医疗多模态数据集，包含 1,600 万张 2D 及 3D 图像）
+  * 院校：上海交通大学未来媒体网络协同创新中心谢伟迪课题组
+  * 作者：[Chaoyi Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+C), [Xiaoman Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+X), [Ya Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y), [Yanfeng Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+Y), [Weidi Xie](https://arxiv.org/search/cs?searchtype=author&query=Xie,+W)
