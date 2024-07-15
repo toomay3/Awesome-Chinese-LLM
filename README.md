@@ -743,6 +743,12 @@
   * 地址：https://github.com/pleisto/flappy
     ![](https://img.shields.io/github/stars/pleisto/flappy.svg)
   * 简介：一个产品级面向所有程序员的LLM SDK，
+ 
+* LazyLLM
+  
+  * 地址：[https://github.com/pleisto/flappy](https://github.com/LazyAGI/LazyLLM)
+    ![](https://img.shields.io/github/stars/LazyAGI/LazyLLM.svg)
+  * 简介：LazyLLM是一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。LazyLLM提供了更为灵活的应用功能定制方式，并实现了一套轻量级网管机制来支持一键部署多Agent应用，支持流式输出，兼容多个Iaas平台，且支持对应用中的模型进行持续微调。
 
 ### 3. <a name='数据集'></a>数据集
 
