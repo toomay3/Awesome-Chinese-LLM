@@ -749,6 +749,12 @@
   * 地址：[https://github.com/LazyAGI/LazyLLM](https://github.com/LazyAGI/LazyLLM)
     ![](https://img.shields.io/github/stars/LazyAGI/LazyLLM.svg)
   * 简介：LazyLLM是一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。LazyLLM提供了更为灵活的应用功能定制方式，并实现了一套轻量级网管机制来支持一键部署多Agent应用，支持流式输出，兼容多个Iaas平台，且支持对应用中的模型进行持续微调。
+ 
+* MemFree
+  
+  * 地址：[https://github.com/memfreeme/memfree](https://github.com/memfreeme/memfree)
+    ![](https://img.shields.io/github/stars/memfreeme/memfree.svg)
+  * 简介：MemFree 是一个开源的 Hybrid AI 搜索引擎，可以同时对您的个人知识库（如书签、笔记、文档等）和互联网进行搜索, 为你提供最佳答案。MemFree 支持自托管的极速无服务器向量数据库，支持自托管的极速Local Embedding and Rerank Service，支持一键部署。
 
 ### 3. <a name='数据集'></a>数据集
 
